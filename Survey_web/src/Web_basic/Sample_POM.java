@@ -316,7 +316,7 @@ public class Sample_POM {
 		Thread.sleep(5000);
 		Reportspage.individualquestion(driver).click();
 
-		WebElement i1 = driver.findElement(By.xpath("//div[text() = 'question_4']"));
+		WebElement i1 = driver.findElement(By.xpath("//div[text() = 'What does SDLC stands for?']"));
 		js.executeScript("arguments[0].scrollIntoView(true);", i1);
 		Thread.sleep(5000);
 		WebElement IndividualResponders = driver.findElement(By.xpath("//span[text()='Individual Responders']"));
